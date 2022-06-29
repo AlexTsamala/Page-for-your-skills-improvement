@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.girls-picture {
+  background-image: url(https://cdn.glitch.global/d778dabd-7a46-482c-825a-88adf13c6471/image-hero-mobile.png?v=1656446101932);
+  background-repeat: no-repeat;
+  background-position: bottom 70% left 70%;
+  width: 100%;
+  height: 329px;
+}
+
+.main-container {
+  width: 90%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.top-right-button {
+  background: #13183f;
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.Maximize-skill {
+  color: #13183f;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50.4px;
+  margin-top: 38px;
+  margin-bottom: 26px;
+}
+
+.Maximize-skills-TEXT {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  width: 343px;
+  height: 78px;
+  margin-bottom: 24px;
+}
+
+.Maximize-skill-button {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  font-weight: 700;
+  size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  border: white;
+}
+
+.course-cards {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  row-gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  height: 120px;
+  width: 343px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.intro-text {
+  margin-left: 32px;
+  width: 286px;
+  height: 64px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.cards {
+  height: 259px;
+  width: 343px;
+  background: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.cards-img {
+  transform: translate(50%, -50%);
+}
+
+.cards-header {
+  color: #13183f;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 28px;
+}
+
+.cards-p {
+  color: #83869a;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  margin: 16px 29px 24px 28px;
+}
+
+.card-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  border: 0px;
+  background: #ffffff;
+  margin-left: 24px;
+}
+
+.bottom {
+  background: #13183f;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 120px;
+}
+
+.bottom-right-button {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  border-radius: 28px;
+  width: 140px;
+  height: 48px;
+  font-weight: 700;
+  size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.top-right-button:hover {
+  background-color: #666ca3;
+}
+
+.bottom-right-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+.card-button:hover {
+  color: #ffa7c3;
+}
+
+.Maximize-skill-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.fixed-button:hover {
+  color: #ffa7c3;
+}
+
+@media (min-width: 700px) {
+  .girls-picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 700px;
+    width: 50%;
+    background-image: url(https://cdn.glitch.global/d778dabd-7a46-482c-825a-88adf13c6471/image-hero-tablet.png?v=1656446145002);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+ 
+
+  .top-right-button {
+    margin-right: 40px;
+  }
+  .title {
+    width: 398px;
+    margin: 105px 0px 210px 0px;
+  }
+
+  .course-cards {
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    row-gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 999px;
+  }
+
+  .intro {
+    height: 259px;
+    width: 339px;
+  }
+
+  .cards {
+    width: 340px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .girls-picture {
+    height: 800px;
+    width: 750px;
+    background-image: url(https://cdn.glitch.global/d778dabd-7a46-482c-825a-88adf13c6471/image-hero-desktop.png?v=1656232294889);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+
+  .main-container {
+    width: 80%;
+}
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    max-width: 100%;
+  }
+
+  .bottom {
+    background: #13183f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    width: 100%;
+  }
+  
+
+  .bottom-right-button {
+    background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    font-weight: 700;
+    size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-right: 100px;
+  }
+
+  .top-right-button {
+    background: #13183f;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    font-weight: 700;
+    size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-right: 165px;
+  }
+  
+  
+  .Maximize-skill-button {
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    border-radius: 31.5px;
+    width: 167px;
+    height: 63px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+
+  .white-skilled {
+    margin-left: 100px;
+  }
+
+  .title {
+    color: #13183f;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 105px 0px 250px 0px;
+  }
+
+  .Maximize-skills-TEXT {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869a;
+    width: 457px;
+    height: 143px;
+    margin-top: 29px;
+  }
+
+  .course-cards {
+    width: 100%;
+    padding-bottom: 140px;
+  }
+
+  .intro {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    border-radius: 10px;
+    width: 350px;
+    height: 322px;
+    margin: 0px;
+  }
+
+  .intro-text {
+    width: 286px;
+    height: 120px;
+  }
+
+  .cards {
+    height: 322px;
+    width: 350px;
+    background: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .middle-card {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .cards-img {
+    transform: translate(50%, -50%);
+  }
+
+  .cards-header {
+    color: #13183f;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .cards-p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869a;
+  }
+
+  .card-button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    background: #ffffff;
+  }
+}
