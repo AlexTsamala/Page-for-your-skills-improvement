@@ -29,9 +29,10 @@
 - box-sizing: border-box;
 - background-picture
 
+
 ### What I learned
 
-It was another productive project for me. I learned how to use responsive desine with viewport  ,so now i can creat site's which is compatible for computers, tablets and mobile phones.
+It was another productive project for me. I learned how to use responsive design with viewport  ,so now i can creat site's which is compatible for computers, tablets and mobile phones.
 
 ```html
 <meta name="viewport" content="some html code i am proud of, initial-scale=1.0" />
